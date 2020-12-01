@@ -8,9 +8,21 @@
   display: block;
 }
 
-ul li {
+.nav-mid li a {
+  padding-right: 1.5em;
+  border-right: 1px solid grey;
+}
+
+.bg-orange {
+  background-color: #f72210;
+}
+.bg-black {
+  background-color: black;
+  border: tra;
+}
+/* ul li {
   list-style: none;
   margin-right: 1em;
   padding-right: 1em;
   border-right: 1px solid grey;
-}
+} */
