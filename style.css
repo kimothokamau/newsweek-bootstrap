@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 18px;
@@ -11,14 +11,26 @@
 .nav-mid li a {
   padding-right: 1.5em;
   border-right: 1px solid grey;
+  color: #000000;
+  font-weight: bold;
 }
 
+.nav ul li a {
+  color: 
+}
 .bg-orange {
   background-color: #f72210;
 }
 .bg-black {
   background-color: black;
-  border: tra;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.spacing {
+  letter-spacing: 0.002;
 }
 /* ul li {
   list-style: none;
