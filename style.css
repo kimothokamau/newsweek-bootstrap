@@ -1,0 +1,16 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333;
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+  display: block;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 1em;
+  padding-right: 1em;
+  border-right: 1px solid grey;
+}
