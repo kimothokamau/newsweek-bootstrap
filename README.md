@@ -38,8 +38,8 @@ https://github.com/kimothokamau/newsweek-bootstrap.git
 
 👤 **Sunil Kumar**
 
-- GitHub: [@VanessaAoki](https://github.com/DsunilK)
-- Twitter: [@VanessaSAoki](https://twitter.com/D_sunil_K)
+- GitHub: [@dsunilk](https://github.com/DsunilK)
+- Twitter: [@D_sunil_k](https://twitter.com/D_sunil_K)
 
 
 👤 **Kimotho Kamau**
