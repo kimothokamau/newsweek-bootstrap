@@ -15,9 +15,6 @@ body {
   font-weight: bold;
 }
 
-.nav ul li a {
-  color: 
-}
 .bg-orange {
   background-color: #f72210;
 }
@@ -38,3 +35,8 @@ body {
   padding-right: 1em;
   border-right: 1px solid grey;
 } */
+
+.img-size {
+  height: 50px;
+  width: 50px;
+}
