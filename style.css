@@ -26,6 +26,10 @@ body {
   color: #000000;
 }
 
+.text-orange {
+  color: #f72210;
+}
+
 .spacing {
   letter-spacing: 0.002;
 }
