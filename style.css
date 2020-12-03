@@ -15,6 +15,18 @@ body {
   font-weight: bold;
 }
 
+.footer li a {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  border-right: 1px solid grey;
+  color: #666666;
+  font-size: 14px;
+}
+
+.footer li a :nth-child(1) {
+  padding-right: 0;
+}
+
 .bg-orange {
   background-color: #f72210;
 }
