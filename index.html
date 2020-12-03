@@ -18,26 +18,29 @@
 <body class="container-fluid bg-white">
   <!-- HEADER/ NAVBAR SECTION -->
   <div class="main container-fluid">
-    <header class="container-fluid mx-0 px-0">
+    <header class="row mx-0 px-0">
       <nav
-        class="d-flex row navbar navbar-expand navbar-nav col-12 justify-content-between bg-orange px-md-5 mx-0 pt-4">
-        <div class="col-sm ">
+        class="d-flex row navbar navbar-expand navbar-nav justify-content-between bg-orange mx-0">
+        <div class="col-12 d-xs-none d-lg-block">
           <p><a class="text-white" href="#">22 Cumenca, EC ></a></p>
           <p><a class="text-white" href="#">Tue, Dec 01, 2020</a></p>
         </div>
-        <a href="#"><img class="col-sm navbar-brand" src="./assets/logo.png" alt="main-logo"
+        <a href="#"><img class="d-xs-none d-lg-inline-flex col-sm navbar-brand" src="./assets/logo.png" alt="main-logo"
             style="filter: grayscale(100%) invert(100%) contrast(10);height: 60px;width: 390px;"></a>
-        <div class="col-sm justify-content-end d-flex text-uppercase">
+
+        <a href="#"><img class=" d-lg-none col-sm navbar-brand" src="./assets/logo.png" alt="main-logo"
+          style="filter: grayscale(100%) invert(100%) contrast(10);height: 40px;width: 162px;"></a>
+        <div class="col-sm justify-content-end align-items-center d-flex text-uppercase">
           <a href="#" class="text-white mr-5 align-self-center font-weight-bold">LOGIN</a>
           <button class="text-white bg-black rounded-pill p-2 border-dark border font-weight-bold"
             type="submit">SUBSCRIPTION
             OFFERS ></button>
+            <i class="ml-3 d-lg-none fas fa-bars"></i>
         </div>
       </nav>
-
-      <nav class="tobe-hiden d-none d-lg-block">
+      <nav class="d-sm-none d-lg-block">
         <ul
-          class="d-flex row navbar navbar-expand navbar-nav col-12 justify-content-between px-md-5 mx-0 border-bottom nav-mid">
+          class="d-flex row navbar navbar-expand navbar-nav col-12 justify-content-between  mx-0 border-bottom nav-mid">
           <li><a href="#">U.S.</a></li>
           <li><a href="#">World</a></li>
           <li><a href="#">Business</a></li>
@@ -49,34 +52,32 @@
           <li><a href="#">The Debate</a></li>
           <li><a href="#">Vantage</a></li>
           <li><a href="#">Weather</a></li>
-          <li><a href="#">Search</a><i class="fas fa-search"></i></li>
+          <li><a class="text-secondary" href="#">Search <i class="fas fa-search"></i></li></a>
         </ul>
       </nav>
-
-      <nav>
+      <nav class="d-sm-none d-lg-block">
         <ul
-          class="d-flex row navbar navbar-expand navbar-nav col-12 justify-content-between px-md-5 mx-0 border-bottom">
+          class="d-flex row navbar navbar-expand navbar-nav col-12 px-md-2 mx-0 border-bottom  nav-down">
           <li>
-            <a href="#">Trending</a>
+            <a class="text-secondary" href="#">Trending</a>
           </li>
           <li>
-            <a href="#">Joe Biden</a>
+            <a class="text-secondary" href="#">Joe Biden</a>
           </li>
           <li>
-            <a href="#">Donald Trump</a>
+            <a class="text-secondary" href="#">Donald Trump</a>
           </li>
           <li>
-            <a href="#">2020 Election</a>
+            <a class="text-secondary" href="#">2020 Election</a>
           </li>
           <li>
-            <a href="#">Coronavirus</a>
+            <a class="text-secondary" href="#">Coronavirus</a>
           </li>
           <li>
-            <a href="#">Stimulus Package</a>
+            <a class="text-secondary" href="#">Stimulus Package</a>
           </li>
         </ul>
       </nav>
-
     </header>
 
     <!-- FEATURED STORIES & TOP STORY & OPINION -->
@@ -192,17 +193,16 @@
           <h5 class="font-weight-bold text-muted">CULTURE & TRAVEL</h5>
           <div class="d-flex flex-column flex-md-row">
             <div class="d-flex flex-column mr-3">
-              <h5 class="position-absolute bg-light flex-column align-self-end mb-0 px-1">PETS</h5>
+
               <img class="mb-2" style="width:100%" src="./assets/section2-img1.webp" alt="women">
               <p class="font-weight-bold text-muted">These Are the Presidents Who Had Cats in the White House</p>
             </div>
             <div class="d-flex flex-column mr-3 ">
-              <h5 class="position-absolute bg-light flex-column align-self-end mb-0 px-1">TELEVISION</h5>
+
               <img class="mb-2" style="width:100%" src="./assets/section2-img2.webp" alt="police">
               <p class="font-weight-bold text-muted">100 Best TV Episodes of All Time</p>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="position-absolute bg-light flex-column align-self-end mb-0 px-1">FOOD</h5>
               <img class="mb-2" style="width:100%" src="./assets/section2-img3.webp" alt="friendship">
               <p class="font-weight-bold text-muted">Unique Holiday Foods From Around the World</p>
             </div>
