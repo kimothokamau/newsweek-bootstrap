@@ -18,27 +18,27 @@
 <body class="container-fluid bg-white">
   <!-- HEADER/ NAVBAR SECTION -->
   <div class="main container-fluid">
-    <header class="row mx-0 px-0">
-      <nav
-        class="d-flex row navbar navbar-expand navbar-nav justify-content-between bg-orange mx-0">
-        <div class="col-12 d-xs-none d-lg-block">
+    <header class="col-12 mx-0 px-0">
+      <nav class="d-flex row justify-content-between bg-orange p-2">
+        <div class="d-sm-none d-lg-block mx-3 nav-mobile">
           <p><a class="text-white" href="#">22 Cumenca, EC ></a></p>
           <p><a class="text-white" href="#">Tue, Dec 01, 2020</a></p>
         </div>
-        <a href="#"><img class="d-xs-none d-lg-inline-flex col-sm navbar-brand" src="./assets/logo.png" alt="main-logo"
-            style="filter: grayscale(100%) invert(100%) contrast(10);height: 60px;width: 390px;"></a>
-
-        <a href="#"><img class=" d-lg-none col-sm navbar-brand" src="./assets/logo.png" alt="main-logo"
-          style="filter: grayscale(100%) invert(100%) contrast(10);height: 40px;width: 162px;"></a>
-        <div class="col-sm justify-content-end align-items-center d-flex text-uppercase">
-          <a href="#" class="text-white mr-5 align-self-center font-weight-bold">LOGIN</a>
+        <div>
+          <a href="#"><img class="d-sm-none d-lg-inline-flex navbar-brand nav-mobile" src="./assets/logo.png"
+              alt="main-logo" style="filter: grayscale(100%) invert(100%) contrast(10);height: 60px;width: 390px;"></a>
+          <a href="#"><img class=" d-lg-none ml-2" src="./assets/logo.png" alt="main-logo"
+              style="filter: grayscale(100%) invert(100%) contrast(10);height: 30px;width: 130px;"></a>
+        </div>
+        <i class=" d-md-none align-self-center far fa-user"></i>
+        <div class="justify-content-end align-items-center d-flex text-uppercase">
+          <a href="#" class="text-white mr-5 align-self-center font-weight-bold login-mobile">LOGIN</a>
           <button class="text-white bg-black rounded-pill p-2 border-dark border font-weight-bold"
-            type="submit">SUBSCRIPTION
-            OFFERS ></button>
-            <i class="ml-3 d-lg-none fas fa-bars"></i>
+            type="submit">SUBSCRIBE ></button>
+          <i class="mx-2 d-sm-inline-flex d-lg-none fas fa-bars"></i>
         </div>
       </nav>
-      <nav class="d-sm-none d-lg-block">
+      <nav class="d-sm-none d-lg-block nav-mobile">
         <ul
           class="d-flex row navbar navbar-expand navbar-nav col-12 justify-content-between  mx-0 border-bottom nav-mid">
           <li><a href="#">U.S.</a></li>
@@ -55,9 +55,8 @@
           <li><a class="text-secondary" href="#">Search <i class="fas fa-search"></i></li></a>
         </ul>
       </nav>
-      <nav class="d-sm-none d-lg-block">
-        <ul
-          class="d-flex row navbar navbar-expand navbar-nav col-12 px-md-2 mx-0 border-bottom  nav-down">
+      <nav class="d-sm-none d-lg-block nav-mobile">
+        <ul class="d-flex row navbar navbar-expand navbar-nav col-12 px-md-2 mx-0 border-bottom  nav-down">
           <li>
             <a class="text-secondary" href="#">Trending</a>
           </li>
@@ -82,11 +81,11 @@
 
     <!-- FEATURED STORIES & TOP STORY & OPINION -->
     <section class="container-fluid row d-flex">
-      <article class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column mt-4 position-sticky">
+      <article class="col-xs-12 col-md-6 col-lg-4 d-flex flex-column mt-4 position-sticky">
         <h5 class="font-weight-bold text-muted">FEATURED STORIES</h5>
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%; height:100%;" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -100,7 +99,7 @@
 
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end mb-0 px-2 py-1">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/trump.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -113,7 +112,7 @@
 
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/stadium.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -129,7 +128,7 @@
 
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/russia-alliance.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -144,7 +143,7 @@
 
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/covid.jpg" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -157,7 +156,7 @@
       </article>
       <!-- Second Article -->
 
-      <article class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column mt-4">
+      <article class="col-xs-12 col-md-6 col-lg-4 d-flex flex-column mt-4">
         <h5 class="font-weight-bold text-muted">TOP STORY</h5>
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1">U.S.</h5>
@@ -714,7 +713,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -729,7 +728,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -743,7 +742,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -757,7 +756,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -771,7 +770,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -785,7 +784,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -799,7 +798,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -813,7 +812,7 @@
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="d-flex position-relative">
           <h5 class="position-absolute bg-light align-self-end  mb-0 px-2 py-1 text-orange">U.S.</h5>
-          <a href="#"><img style="width:100%" src="./assets/mcconnell.webp" alt="mcconnell"> </a>
+          <a href="#"><img style="width:100%" src="./assets/ilhan-omar.webp" alt="mcconnell"> </a>
 
         </div>
         <a href="#">
@@ -1324,13 +1323,13 @@
   </section>
   <div class="border-bottom  mb-3 mt-3" style="border: 2px solid lightgray "></div>
   <footer>
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between row">
       <div class="d-flex justify-content-around px-3">
         <img style="height: 36px; width: 236px;" src="./assets/logo.png" alt="logo">
         <span class="text-muted align-self-end px-1">© 2020 NEWSWEEK DIGITAL LLC
         </span>
       </div>
-      <div class=" d-flex px-3 align-items-center">
+      <div class=" d-flex px-3 align-items-center foot-pad">
         <a href="#"><i class="px-2 fab fa-facebook-square fa-lg text-secondary"></i></a>
         <a href="#"><i class="px-2 fab fa-twitter fa-lg text-secondary"></i></a>
         <a href="#"><i class="px-2 fab fa-instagram fa-lg text-secondary"></i></a>
@@ -1348,7 +1347,7 @@
         <li><a href="#">Culture</a></li>
         <li><a href="#" class="border-0">Newsgeek</a></li>
       </ul>
-      <ul class="d-flex row col-12 justify-content-between mx-0 footer pb-4 flex-wrap">
+      <ul class="d-flex row col-12 justify-content-between mx-0 footer pb-4 flex-wrap ">
         <li><a href="#" class="pl-0">U.S.</a></li>
         <li><a href="#">World</a></li>
         <li><a href="#">Business</a></li>
