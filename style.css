@@ -8,6 +8,11 @@ body {
   display: block;
 }
 
+.position-sticky {
+  position: sticky;
+  top: 0;
+}
+
 .nav-mid li a {
   /* padding: 0 0.5em 0 0.5em; */
   padding-right: 0.5em;

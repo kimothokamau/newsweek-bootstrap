@@ -1,7 +1,9 @@
 # Newsweek clone using bootstrap
 This project's goal is to clone a replica of the newsweek.com website using bootstrap 
 
-![screenshot](./assets/imgs/Screenshot.jpg)
+![screenshot](./assets/Screen-Shot-desk.png)
+![screenshot](./assets/Screen-Shot-ipad.png)
+![screenshot](./assets/Screen-Shot-mobile.png)
 
 ## Built With
 
