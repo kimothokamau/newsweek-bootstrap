@@ -48,6 +48,14 @@ body {
   color: black;
 }
 
+.footer li a {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  border-right: 1px solid grey;
+  color: #666;
+  font-size: 14px;
+}
+
 .nav-mid li a:hover {
   color: red;
   text-decoration: none;
@@ -63,15 +71,6 @@ body {
   text-decoration: none;
 }
 
-.footer li a {
-  padding-right: 1.5em;
-  padding-left: 1.5em;
-  border-right: 1px solid grey;
-  color: #666;
-  font-size: 14px;
-}
-
-
 .footer li a :nth-child(1) {
   padding-right: 0;
 }
@@ -85,8 +84,8 @@ body {
 }
 
 .bg-yellow {
-  background-color: #FFE400;
-  border: none
+  background-color: #ffE400;
+  border: none;
 }
 
 .text-black {
@@ -95,10 +94,6 @@ body {
 
 .text-orange {
   color: #f72210;
-}
-
-.spacing {
-  letter-spacing: 0.002;
 }
 
 .img-size {
