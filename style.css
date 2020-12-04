@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333;
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+  display: block;
+}
+
+.position-sticky {
+  position: sticky;
+  top: 0;
+  height: 1210px;
+}
+
+.position-sticky1 {
+  position: sticky;
+  top: 0;
+  height: 2140px;
+}
+
+.newletter-img {
+  height: auto;
+  width: 100%;
+}
+
+.nav-mid li a {
+  /* padding: 0 0.5em 0 0.5em; */
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  border-right: 1px solid grey;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-down {
+  padding-right: 3em;
+  font-weight: bold;
+  font-size: 19px;
+  color: grey;
+}
+
+.nav-down1 {
+  padding-right: 3em;
+  font-weight: bold;
+  font-size: 19px;
+  color: black;
+}
+
+.footer li a {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  border-right: 1px solid grey;
+  color: #666;
+  font-size: 14px;
+}
+
+.nav-mid li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-down:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.nav-down1:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer li a :nth-child(1) {
+  padding-right: 0;
+}
+
+.bg-orange {
+  background-color: #f72210;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-yellow {
+  background-color: #ffe400;
+  border: none;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-orange {
+  color: #f72210;
+}
+
+.img-size {
+  height: 50px;
+  width: 50px;
+}
+
+.n-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 1em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .position-sticky {
+    display: none !important;
+  }
+
+  .position-sticky1 {
+    height: 2180px !important;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 760px) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .login-mobile {
+    display: none;
+  }
+
+  .foot-pad {
+    padding-top: 10px;
+  }
+
+  .footer li a {
+    border: none;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .position-sticky {
+    display: none !important;
+  }
+
+  .position-sticky1 {
+    display: none !important;
+  }
+}
