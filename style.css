@@ -84,7 +84,7 @@ body {
 }
 
 .bg-yellow {
-  background-color: #ffE400;
+  background-color: #ffe400;
   border: none;
 }
 
@@ -118,7 +118,6 @@ body {
 }
 
 @media screen and (min-width: 240px) and (max-width: 760px) {
-
   .nav-mobile {
     display: none;
   }
@@ -145,4 +144,3 @@ body {
     display: none !important;
   }
 }
-
